@@ -37,9 +37,9 @@ object AndroidX {
 }
 
 object Versions {
-    const val compileSdkVersion = 30
+    const val compileSdkVersion = 33
     const val minSdkVersion = 21
-    const val targetSdkVersion = 30
+    const val targetSdkVersion = 33
     const val kotlin = "1.6.20"
     const val agp = "7.0.3"
     const val glide = "4.12.0"

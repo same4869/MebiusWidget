@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.pokemon.mebius.widget"
-    compileSdk = 31
+    compileSdk = com.pokemon.mebius.framework.buildsrc.Versions.compileSdkVersion
 
     defaultConfig {
         applicationId = "com.pokemon.mebius.widget"
-        minSdk = 21
-        targetSdk = 31
+        minSdk = com.pokemon.mebius.framework.buildsrc.Versions.minSdkVersion
+        targetSdk = com.pokemon.mebius.framework.buildsrc.Versions.targetSdkVersion
         versionCode = 1
         versionName = "1.0"
 

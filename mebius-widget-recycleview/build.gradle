@@ -55,9 +55,9 @@ android {
 
 dependencies {
     implementation AndroidX.appcompat
-    api UIKit.material
-    api UIKit.constraint_layout
-    api UIKit.recycler_view
+    implementation UIKit.material
+    implementation UIKit.constraint_layout
+    implementation UIKit.recycler_view
     implementation Dependencies.mebius_log
     implementation Dependencies.mebius_commlib
 }
