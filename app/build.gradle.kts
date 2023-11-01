@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.pokemon.mebius.widget"
-    compileSdk = 33
+    compileSdk = 31
 
     defaultConfig {
         applicationId = "com.pokemon.mebius.widget"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = 21
+        targetSdk = 31
         versionCode = 1
         versionName = "1.0"
 
@@ -27,11 +27,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "1.8"
     }
     buildFeatures {
         viewBinding = true

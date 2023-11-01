@@ -10,8 +10,8 @@ object Repos {
 
 object Dependencies {
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Versions.agp}"
-    const val mebius_log = "com.github.same4869:MebiusLog:0.0.2"
-    const val mebius_commlib = "com.github.same4869:MebiusCommlib:0.0.1"
+    const val mebius_log = "com.github.same4869:MebiusLog:0.0.4"
+    const val mebius_commlib = "com.github.same4869:MebiusCommlib:0.0.2"
 }
 
 object SoraWidget {
@@ -38,9 +38,9 @@ object AndroidX {
 
 object Versions {
     const val compileSdkVersion = 30
-    const val minSdkVersion = 23
+    const val minSdkVersion = 21
     const val targetSdkVersion = 30
-    const val kotlin = "1.5.21"
+    const val kotlin = "1.6.20"
     const val agp = "7.0.3"
     const val glide = "4.12.0"
 }
